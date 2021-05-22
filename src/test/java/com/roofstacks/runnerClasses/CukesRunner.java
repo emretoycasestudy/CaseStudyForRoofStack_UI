@@ -14,8 +14,8 @@ import org.junit.runner.RunWith;
         monochrome = true,                          // ==> Makes the pretty report more readable
         features = "src/test/resources/features",
         glue = "com/roofstacks/stepDefinitions",
-        dryRun = false,
-        tags="Task1"
+        dryRun =false
+       // tags="Task1"
 )
 public class CukesRunner {
 }

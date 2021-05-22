@@ -50,7 +50,8 @@ public class applyAsATesterStepDefs {
     public void the_applicant_apply_for_correct_position() {
    String actualFileName=Driver.get().findElement(By.cssSelector("#file")).getText();
    String actualValue=Driver.get().findElement(By.xpath("//*[@id=\"progressBar\"]")).getText();
-   // Assert.assertEquals("100%",actualValue);
+
+        // Assert.assertEquals("100%",actualValue);
         Assert.assertFalse(actualValue.contains("%"));
     }
 
